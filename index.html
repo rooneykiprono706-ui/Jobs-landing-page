@@ -231,27 +231,11 @@
   .opp-note{font-size:13px; color:#6b7280; margin-top:14px;}
   .opp-cta{margin-top:18px; width:auto; align-self:flex-start; justify-content:center; font-size:14px; padding:11px 20px;}
   .opp-cta svg{width:16px; height:16px;}
-  @media (max-width:700px){
+  @media (max-width:1000px){
     .opp-card{grid-template-columns:1fr; gap:14px;}
     .opp-cta{width:100%; align-self:stretch;}
   }
   @media (max-width:640px){ .opp-columns{grid-template-columns:1fr;} }
-
-  /* sectors grid */
-  .sectors{background:var(--white);}
-  .sector-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:14px; margin-top:8px;}
-  .sector-card{
-    border:1px solid var(--line);
-    border-radius:8px;
-    padding:20px 18px;
-    background:var(--paper);
-    box-shadow:0 1px 3px rgba(36,68,114,0.06);
-    transition:box-shadow 0.15s ease, transform 0.15s ease;
-  }
-  .sector-card:hover{box-shadow:0 4px 12px rgba(36,68,114,0.1); transform:translateY(-1px);}
-  .sector-card .num{font-family:'Space Mono', monospace; font-size:11px; color:var(--red); display:block; margin-bottom:8px;}
-  .sector-card h3{font-size:15.5px; color:var(--navy); margin-bottom:4px;}
-  .sector-card p{font-size:13.5px; color:#4b5563;}
 
   /* destinations gallery */
   .destinations{background:var(--navy);}
@@ -521,23 +505,6 @@
           <p>Practical guidance on travel, accommodation, and what to expect when you land — so you arrive prepared.</p>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="sectors">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">Where we place candidates</span>
-      <h2>Sectors we support most often</h2>
-    </div>
-    <div class="sector-grid">
-      <div class="sector-card"><span class="num">01</span><h3>Hospitality</h3><p>Hotels, restaurants, catering</p></div>
-      <div class="sector-card"><span class="num">02</span><h3>Healthcare</h3><p>Care work, nursing support</p></div>
-      <div class="sector-card"><span class="num">03</span><h3>Construction</h3><p>Skilled and general labor</p></div>
-      <div class="sector-card"><span class="num">04</span><h3>Logistics</h3><p>Warehousing, drivers, transport</p></div>
-      <div class="sector-card"><span class="num">05</span><h3>Domestic work</h3><p>Household and childcare roles</p></div>
-      <div class="sector-card"><span class="num">06</span><h3>Office & admin</h3><p>Support and administrative roles</p></div>
     </div>
   </div>
 </section>
